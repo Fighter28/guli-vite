@@ -1,17 +1,16 @@
 <template>
   <div>
-    hello world
+    导航栏 ｜
+    <router-link to="/">Justice</router-link> |
+    <router-link to="/xxx">Justice2</router-link>
   </div>
-  <justice/>
+  <hr>
+  <router-view/>
 </template>
 
 <script>
-import Justice from './components/Justice.vue'
 
 export default {
-  name: 'App',
-  components: {
-    Justice
-  }
+  name: 'App'
 }
 </script>
